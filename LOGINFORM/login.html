@@ -1,0 +1,77 @@
+<head>
+    <title>Login Form</title>
+
+</head>
+<style>
+
+    body{
+        background-color:aliceblue;
+    }
+    hr,input, button{
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+    }
+    a{
+        color: black;
+
+    }
+
+    
+</style>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+
+        } else {
+            x.type = "password";
+        }
+    }
+</script>
+<body>
+    <br>
+    <ul>
+        <h2>Login Form</h2>
+
+    </ul>
+
+    <hr>
+    <div>
+        <ul>
+            <form>
+                <label for = "username">Username: </label><br>
+                <input type = "text" id = "username" placeholder = "Username"><br><br>
+                <label for = "password">Password: </label><br>
+                <input type = "password" id = "myInput"  value = "Password"><br><br>
+                <input type = "checkbox" onclick = "myFunction()">Show Password
+                <br><br>
+
+                <button type ="submit">Login</button>
+                <p>Don't have an account? <a href = "registration.html"><b>Sign Up</b></a>
+
+
+                <br><br>
+                <div>
+
+                    <p>Sign in option: </p>
+                    <a href = "https://www.facebook.com">Facebook</a>
+                    <a href = "https://www.google.com">Google</a>
+                    <a href = "https://www.instagram.com">instagram</a>
+
+                </div>
+                
+    
+            </form>
+
+        </ul>
+
+    </div>
+
+    
+    
+
+</body>
+</html>
