@@ -7,10 +7,10 @@
         <div>
             <nav style="font-family: Arial;" class = "link">
                 <a class ="hotbake" href = "Main.html">BRIAn</a>
-                <a  class = "home" href = "Home.html">HOt BAKe SHOp</a>
+                <a class = "home" href = "Main.html">Home</a>
                 <a class = "contact" href = "contact.html">Contact</a>
                 <a class = "table" href = "table.html">Table</a>
-                <a class = "login" href = "login.html">Form</a><br>
+                <a class = "login" href = "#login">Form</a><br>
              
                 
             </nav>
@@ -21,46 +21,44 @@
     </head>
     <style>
         a.hotbake{
-            padding-right: 850px;
+            padding-right: 950px;
             color: rgb(70, 70, 234);
+        }
+        .choice{
+            font-family: Arial;
+            padding-top: 10px;
+            padding-left: 210px;
+        }
+        .choice1{
+            padding-left:20px;
+            font-family: Arial;
+        }
+        a.choice1:hover{
+            color: green;
+            text-shadow: 0 0 10px gray;
+
         }
     </style>
 
     <body>
-        <div class = "div1" style ="font-family: Arial;">
-            <a id = "Home"></a>
-            <br><br><br>
-            <h1><u>Hi! I'm </u><u style="color: rgb(70, 70, 234);">BRIAn</u></h1><hr>
-            <p>and  I'm  <b class = "h3">IT College student</b></p>
-            <div>
-                A college student from CTU - Daanbantayan campus,  Studying in <br>programming for atleast 2 years now 
-                of 4 years field, aim to become a software Developer. <br>and currently working for a project Web Development
-                using <b class ="html">HTML</b> and <b class = "css">CSS</b>.
-                <!--<br><br><br>
-                This websites is created for educational purposes only and aim to submit for midterm project. -->
-           
-        </div>
-    </div>
+        
     
     <div class = "div2">
         <br><br><br><br><br><br><br><br><br><br>
-        <a id = "Contact"></a>
-            <p><b>Home /</b> Contact</p>
-            <h1>Contact Us</h1>
+        <a id = "login"></a>
+            <p><b>Home /</b> Form</p>
+            
             <hr>
-            <p>- Have question and need to talk to us? Please complete this form and we will get in touch as soon as possible.</p>
         <form class = "example">
             <br>
-            <label for = "email">Your email</label><br>
+            <label for = "email">Email</label><br>
             <input type = "text" id = "email" placeholder="name@example.com">
             <br><br><br><br>
-            <label for = "subject">Subject</label><br>
-            <input type="text" id = "subject">
+            <label for = "password">Password</label><br>
+            <input class = "pass"type="password" id = "password">
             <br><br><br><br>
-            <label for = "message">Message</label><br>
-            <textarea id = "message" rows = "10" cols = "53"></textarea>
-            <br><br><br><br>
-            <button style = "color: white;" class = "glow-on-hover" type="button">Submit</button>
+            <button style = "color: white;" class = "glow-on-hover" type="button">lOGIn</button>
+            <p class ="choice"><u>Don't have an account?</u> <a class = "choice1" href = "register.html"><b>SIGN Up</b></a></p>
             <br><br><br><br><br>
             
         </form> 
@@ -69,6 +67,9 @@
     
     <br><br><br><br><br><br><br><br><br><br>
     <style>
+        
+        
+    
     .link2, .f, .t, .ms {
         text-align: center;
         color: rgb(8, 8, 8);
