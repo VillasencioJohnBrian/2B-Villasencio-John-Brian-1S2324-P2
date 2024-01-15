@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href = 
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+   
+    
+</head>
+<!--Style here topOFNav-->
+<style>
+    .topOFNav{
+        position: fixed;
+        width: 100%;
+        overflow: hidden;
+        background-color: #53769A;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: small;
+        padding: 12px;
+        
+    }
+    .fa:hover {
+        opacity: 0.7;
+        
+    }
+    .fa {
+        color: white;
+        
+    }
+    
+   
+</style>
+
+
+<!--This CSS Code here topnav-->
+<style>
+
+   body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+    }
+    .topnav{
+        
+        position: fixed;
+        width: 100%;
+        background-color: lightgrey;
+        
+        
+    }
+   
+    .topnav, .hotbakeshop,.search,.home, 
+    .about, .contact, .services, .products, .account{
+        text-align: center;
+        
+        padding:  10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        
+        
+    }
+    .hotbakeshop{
+        
+        background-color: #53769A;
+        padding: 12px 15px;
+        color: white;
+        border-radius: 10px;
+        transition: 0.4s; 
+        
+    }
+    .topnav,.search:hover, .home:hover, .about:hover, 
+    .contact:hover, .services:hover, .products:hover, .account:hover {
+        
+        background-color: white;
+        color: #53769A;
+    }
+    .about, .products, .home, .contact, .services, .account, .fa-search{
+        color: black;
+        border-style: none;
+        background-color: white;
+        
+    }
+    
+   
+    .me-2 {
+        display: none;
+        float: right;
+        padding-left: 15px;
+        margin-right: 220px;
+        height: 30px;
+        width: 900px;
+        border: 1px solid black;
+        background-color: #ffffff;
+        border-radius: 20px;
+      
+        
+    }
+    
+   
+
+
+    </style>
+
+<body>
+    <a href = "#top"></a>
+    <div class = "topOFNav">
+        <a style="color: white; padding-right: 780px; ">FAST & FRESH NATIONWIDE DELIVERY! </a>
+        <a class="fa fa-facebook" style="padding-right: 10px;"></a>
+        <a class="fa fa-youtube-play" style="padding-right: 10px;"></a>
+        <a class="fa fa-instagram"  style="padding-right: 10px;"></a>
+        <a class="fa fa-twitter"  style="padding-right: 10px;"></a>
+        <a class="fa fa-envelope" ></a>
+
+
+    </div>
+    <br><br>
+
+   
+
+    <div class ="topnav" style="padding-top: 55px; padding-bottom: 35px;">
+
+        
+        <a href="index.html" class="hotbakeshop">HotBakeShop</b></a>
+            <a href="homePage.html" style="padding-left: 210px;"  class="home">Home</a>
+            <style>
+                .dropbtn {
+                  background-color: white;
+                  color: black;
+                  padding: 16px;
+                  font-size: large;
+                  border: none;
+                  font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                .dropdown {
+                  position: relative;
+                  display: inline-block;
+                }
+                
+                .dropdown-content{
+                  display: none;
+                  position: absolute;
+                  background-color: #f1f1f1;
+                  
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  z-index: 1;
+                }
+                
+                .dropdown-content a {
+                    border: 1px solid #d9dee2 ;
+                    background-color: white;
+                    width: 300px;
+                   height: 20px;
+                    font-size: small;
+                   text-align: left;
+                   color: black;
+                  padding: 10px 16px;
+                  text-decoration: none;
+                  display: block;
+                }
+                
+                .dropdown-content a:hover  {
+                    background-color: #ddd;
+                }
+                
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+                
+                .dropdown:hover .dropbtn {
+                    color:#53769A;
+                }
+                .fa-caret-down:hover {
+                    color:#53769A;
+
+                }
+                .dropbtn:hover, .fa-caret-down:hover {
+                    color:#53769A;
+
+                }
+                </style>
+            <div class="dropdown">
+                <a href="productPage.html" style="text-decoration: none;" class="dropbtn">Shop The Bakery
+                    <i class="fa fa-angle-down" style="color: black; padding-left: 5px; "></i>
+            </a>
+                <div class="dropdown-content">
+                    <a href="#home">Order for Nationwide Shipping
+                         <i class="fa fa-caret-right" style="color: gray; padding-left: 115px;"></i>
+                         
+                        </a>
+                    <a href="#about">Order for In-Store Pick up<i class="fa fa-caret-right" style="color: gray; padding-left: 145px;"></i>
+                     </a>
+                   
+                  
+                </div>
+              </div>
+              <div class="dropdown">
+                <a href="aboutUs.html" style="text-decoration: none;" class="dropbtn">About Us
+                    <i class="fa fa-angle-down" style="color: black; padding-left: 5px; "></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="">Featured Videos
+                         <i style="color: gray; "></i>
+                         
+                        </a>
+                    <a href="#about">Bakery Bucks</a>
+                    <a href="#about">Brochure</a>
+                   
+                  
+                </div>
+              </div>
+              
+              
+            
+
+            <!--<a  href="aboutUs.html" class="about">About Us</a>-->
+            <a href="contactUs.html" class="contact">Contact Us</a>
+            <a href="services.html" class = "services" >Services</a>
+            <a class = "account" href="myAccountPage.html" style="transition: 0.4s;">My Account</a>
+    
+            <a onclick="showBar()" style="color: black; " class="fa fa-search"></a><br><br>
+            <input class="me-2" placeholder="Search..." >
+          <script>
+            let slideSearch = document.querySelector(".me-2");
+
+            function showBar() {
+                slideSearch.style.setProperty('display','block');
+            }
+        </script>
+
+
+    </div>
+    
+    <br><br><br><br><br><br><br>
+    <style>
+        .AboutBackground {
+          
+            background-color: rgb(248, 245, 245);
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 110px;
+        }
+    </style>
+
+    
+    <div class="AboutBackground">
+            <p style="font-family: Arial, Helvetica, sans-serif ; font-size: 15px; color: black; 
+            float: left; padding-left: 210px; font-size: 30px; ">About HotBakeShop</p>
+            <p style="float: right; padding-right: 200px; padding-top: 27px;">Home > About HotBakeShop</p>
+        
+    </div>
+    <div style="padding-left: 200px;">
+        <p>G Swiss-American Tradition Since 1910</p>
+        <div>We are located in southern Wisconsin and have been delighting customers with our Swiss and American<br>
+             pastries since 1910. Under Angela’s ownership since 2004, we have proudly continued the tradition of crafting<br>
+             authentic pastries that have become beloved favorites. 
+             <img style="float: right; padding-right: 180px; width: 300px; height: 190px;" src="shareBread.jpg">
+        </div>
+        <br>
+        <div>
+            At New Glarus Bakery, we take great pride in using Old World recipes and the highest quality ingredients. This<br>
+            dedication ensures that each and every one of our breads, pastries, cookies, and specialty desserts is truly one-<br>
+            of-a-kind. From the moment you take a bite, you’ll experience the flavors and textures that have made our treats<br>
+            famous.
+        </div>
+        <br>
+        <div>
+            To make our bakery accessible to all, we offer fresh nationwide shipping. No matter where you are, you can treat<br>
+             yourself or surprise loved ones with the indulgence of our freshly baked goods. It’s the perfect way to take a<br>
+              break from the demands of the modern world and enjoy a delicacy straight from America’s Little Switzerland.
+             
+        </div>
+        <br>
+        <div>
+            When you step into our bakery, you’ll be greeted by the comforting aroma of freshly baked goods. Every item we offer is carefully handcrafted with attention<br>
+            to detail, ensuring that you’ll taste the warmth and nostalgia in every bite. It’s a place where our passion for baking shines through, creating a sense of joy<br>
+             and happiness.
+        </div>
+        <br>
+        <div>
+            Whether you’re craving a traditional Swiss treat or a classic American pastry, New Glarus Bakery is the destination for you. Our wide range of goodies<br>
+            celebrates the artistry of baking while delivering exceptional taste and quality. We invite you to indulge in our delightful creations and experience<br>
+            the craftsmanship that has made us a cherished bakery for over a century.
+        </div>
+        <br>
+        <div>
+            Thank you for considering New Glarus Bakery for your pastry needs. If you’d like to learn more about the captivating town of New Glarus, Wisconsin, which<br>
+            inspired our name, we invite you to explore its wonders. We look forward to serving you and providing you with a delightful taste of our heritage.
+        </div>
+  
+    </div>
+    <br><br><br><br>
+    <style>
+        .ex1 {
+            border: 1px solid rgb(194, 181, 181);
+            width: 350px;
+            height: 393px;
+            overflow: scroll;
+          
+        }
+        .fa-play-circle,  .ex2 {
+            background-color: rgb(248, 245, 245); 
+            padding: 5px;
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+            cursor: pointer;
+        }
+        .fa-play-circle:hover,  .ex2:hover {
+           
+            color: rgb(167, 158, 158);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div style="background-color: rgb(248, 245, 245);  padding-left: 200px;">
+        <br>
+        <p>Featured videos</p>
+        <iframe width="780" height="450"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+        </iframe> 
+        <div style="float: right; padding-right: 200px ">
+            <p style="font-size: large; font-style: italic; padding-left: 10px;"> HotBakeShop</p>
+            <div class="ex1">
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                <a class="fa fa-play-circle"></a><a class="ex2">Wisconsin restaurant |  HotBakeShop...6:48</a><br><br>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+       
+        
+    
+    
+   
+   
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <style>
+        .buttonDiv{
+            background-color: #53769A;
+            padding-top: 100px;
+            padding-bottom: 600px;
+            padding-top: 100px;
+            color: white;
+            width: 100%;
+            
+        }
+        .buttonDiv, .ReachUs, .SHOP, .INFORMATION, .NEWSLATER {
+            padding-left: 150px;
+        }
+        .ReachUs, .SHOP, .INFORMATION, .NEWSLATER {
+            padding-left: 50px;
+            float: left;
+            cursor: pointer;
+            
+        }
+        .SHOP{
+            padding-left: 110px;
+
+        }
+        .INFORMATION {
+            padding-left: 120px;
+        }
+        .NEWSLATER {
+            padding-left: 90px;
+        }
+        .rs1:hover, .s1:hover, .i1:hover{
+            color:#c1c5ca;
+        }
+        .mailUsNewslater {
+            width: 230px;
+            height: 40px;
+            background-color: #53769A;
+            
+            outline: none;
+            color: white;
+            padding-left: 20px;
+            border-style: groove;
+            
+        }
+        .SubscribeToNewslater {
+            width: 100px;
+            height: 42px;
+            background-color: rgb(212, 63, 9);
+            border: none;
+            border-radius: 40px;
+            color: white;
+        }
+        .SubscribeToNewslater:hover {
+            background-color: rgb(187, 56, 9);
+            transition: 0.7s;
+        }
+       
+    </style>
+    <div class="buttonDiv">
+        <div class="ReachUs">
+            <h2 >REACH US</h2>
+            <a class="rs1">HotBakeShop</a><br><br>
+            <a class="rs1">Hello@HotBakeShop</a><br><br>
+            <a class="rs1">Open Daily 7am - 5pm</a>
+        </div>
+        <div class="SHOP">
+            <h2 >SHOP</h2>
+            <a class="s1">Autoship items</a><br><br>
+            <a class="s1">Bars</a><br><br>
+            <a class="s1">Online Gift Cards</a><br><br>
+            <a class="s1">Breads</a><br><br>
+            <a class="s1">Chocolate</a><br><br>
+            <a class="s1">Cookies</a><br><br>
+            <a class="s1">Dog treats</a><br><br>
+            <a class="s1">Doughnuts</a><br><br>
+            <a class="s1">Gifts</a><br><br>
+            <a class="s1">Holiday</a><br><br>
+            <a class="s1">Morning Rolls</a><br><br>
+            <a class="s1">Pastries</a><br><br>
+            <a class="s1">Tailored Cakes</a>
+        </div>
+        <div class="INFORMATION">
+            <h2 >INFORMATION</h2>
+            <a class="i1">Work @ The bakery</a><br><br>
+            <a class="i1">Bakery Loyalty Program</a><br><br>
+            <a class="i1">Policies</a><br><br>
+            <a class="i1">Frequency asked questions</a><br><br>
+            <a class="i1">Contact Us</a><br>
+        </div>
+
+        <div class="NEWSLATER">
+            
+            <h2>NEWSLETTER</h2>
+            <a>Subscribe to our mailing list fo the latest updates</a><br><br>
+            <input class="mailUsNewslater" type="text" id="mail" placeholder="Please enter your email address">
+            <button class="SubscribeToNewslater" type="button">Submit</button>
+        </div>
+
+       
+
+    </div>
+    <style>
+        .Copyrights{
+            background-color: #53769A;
+            padding-bottom: 100px;
+            padding-top: 10px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+    <div class="Copyrights">
+        <hr style="border: 1px solid #99a1ac;"><br>
+        Copyrights&copy2024 - HotBakeShop
+        <div style="float: right; padding-right: 40px; ">
+            <a  href id="top" style="color: black; padding: 11px 15px; background-color: white; font-size: large;" 
+            id="html" class="fa fa-angle-up"></a>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
